@@ -5,13 +5,14 @@ class CalendarroWeekdayLabelsView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Row(
       children: <Widget>[
-        Expanded(child: Text("Mon", textAlign: TextAlign.center)),
-        Expanded(child: Text("Tue", textAlign: TextAlign.center)),
-        Expanded(child: Text("Wed", textAlign: TextAlign.center)),
-        Expanded(child: Text("Thu", textAlign: TextAlign.center)),
-        Expanded(child: Text("Fri", textAlign: TextAlign.center)),
-        Expanded(child: Text("Sat", textAlign: TextAlign.center)),
-        Expanded(child: Text("Sun", textAlign: TextAlign.center)),
+        Expanded(child: Text("SUN", textAlign: TextAlign.center,style:TextStyle(fontSize:12,color:Color.fromRGBO(126, 126, 126, 1)))),
+        Expanded(child: Text("MON", textAlign: TextAlign.center,style:TextStyle(fontSize:12,color:Color.fromRGBO(126, 126, 126, 1)))),
+        Expanded(child: Text("TUE", textAlign: TextAlign.center,style:TextStyle(fontSize:12,color:Color.fromRGBO(126, 126, 126, 1)))),
+        Expanded(child: Text("WED", textAlign: TextAlign.center,style:TextStyle(fontSize:12,color:Color.fromRGBO(126, 126, 126, 1)))),
+        Expanded(child: Text("THU", textAlign: TextAlign.center,style:TextStyle(fontSize:12,color:Color.fromRGBO(126, 126, 126, 1)))),
+        Expanded(child: Text("FRI", textAlign: TextAlign.center,style:TextStyle(fontSize:12,color:Color.fromRGBO(126, 126, 126, 1)))),
+        Expanded(child: Text("SAT", textAlign: TextAlign.center,style:TextStyle(fontSize:12,color:Color.fromRGBO(126, 126, 126, 1)))),
+        
       ],
     );
   }
