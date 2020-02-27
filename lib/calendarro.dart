@@ -62,7 +62,7 @@ class Calendarro extends StatefulWidget {
     if (startDate.isAfter(endDate)) {
       throw new ArgumentError("Calendarro: startDate is after the endDate");
     }
-    startDayOffset = startDate.weekday - DateTime.sunday;
+    startDayOffset = startDate.weekday - DateTime.monday;
 
     if (dayTileBuilder == null) {
       dayTileBuilder = DefaultDayTileBuilder();
