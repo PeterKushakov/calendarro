@@ -144,7 +144,7 @@ class DateUtils {
     DateTime currentDay = monthStartDate;
     while (currentDay.isBefore(monthEndDate)) {
       currentDay = currentDay.add(Duration(days: 1));
-      if (currentDay.weekday == DateTime.monday) {
+      if (currentDay.weekday == DateTime.sunday) {
         rowsNumber += 1;
       }
     }
