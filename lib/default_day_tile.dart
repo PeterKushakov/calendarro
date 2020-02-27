@@ -23,14 +23,7 @@ class CalendarroDayItem extends StatelessWidget {
               Radius.circular(
                 30.0,
               ),),);
-    } else if (isToday) {
-      boxDecoration = BoxDecoration(
-          border: Border.all(
-            color: Colors.white,
-            width: 1.0,
-          ),
-          shape: BoxShape.circle);
-    }
+    } 
 
     return Expanded(
         child: GestureDetector(
